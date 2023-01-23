@@ -12,7 +12,7 @@ getApikey();
 
 const PRE_MSG = {
   "ask-chatgpt": "",
-  "ask-chatgpt-fix-grammars": "Fix grammar and spelling and errors in the language you detect:",
+  "ask-chatgpt-fix-grammars": "Correct this to detected language:",
   "ask-chatgpt-extend": "Make a complete sentence or paragraph in the language you detected from this short brief",
   "ask-chatgpt-translate-english": 'Translate the sentence from detected language to English. Do not remove the "\n" in the text.',
   "ask-chatgpt-translate-spanish": 'Translate the sentence from detected language to Spanish. Do not remove the "\n" in the text.',
