@@ -64,7 +64,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         "Authorization": "Bearer "+OPENAI_APIKEY,
       },
       body: JSON.stringify({
-        'model': 'text-davinci-003',
+        'model': 'gpt-3.5-turbo-instruct',
         'prompt': PRE_MSG[message.type] + '"' + text + '"',
         'temperature': 0.5,
         'max_tokens': 256,
